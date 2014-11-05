@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite>
+<testcase classname="_js.rwdjs" name="rwdjs:0:0"></testcase>
+  </testsuite>
+</testsuites>

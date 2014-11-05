@@ -1,0 +1,89 @@
+body {
+  background: #fff;
+  color: #333;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ol,
+ul,
+pre {
+  font-weight: normal;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.blocked {
+  background-color: #efefef;
+  display: inline-block;
+  margin-left: 0;
+  margin-top: 0;
+  padding: 5px 10px;
+}
+
+pre {
+  overflow: scroll;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 820px;
+}
+
+#head {
+  margin-top: 100px;
+}
+
+#content {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#logo {
+  background: url(../_imgs/rwdjs-logo.png) no-repeat center;
+  height: 50px;
+  margin-left: 10px;
+  overflow: hidden;
+  text-indent: 1000%;
+  white-space: nowrap;
+  width: 194px;
+}
+
+.responsive_mobile .wrapper,
+.responsive_tablet .wrapper {
+  width: 100%;
+}
+
+.desktop_show,
+.mobile_show,
+.tablet_show {
+  display: none;
+}
+
+.responsive_desktop .desktop_show {
+  display: inline-block;
+}
+
+.responsive_mobile .mobile_show {
+  display: inline-block;
+}
+
+.responsive_tablet .tablet_show {
+  display: inline-block;
+}

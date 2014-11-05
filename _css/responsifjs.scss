@@ -1,0 +1,16 @@
+#responsive_tester {
+  display: block;
+  height: 1px;
+  margin-left: -9999px;
+  position: absolute;
+  width: 1px;
+  @media (max-width: 1600px) { 
+    z-index: 3; 
+  }
+  @media (max-width: 1024px) { 
+    z-index: 2; 
+  }
+  @media (max-width: 650px)  { 
+    z-index: 1; 
+  }
+}

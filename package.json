@@ -1,0 +1,27 @@
+{
+  "name": "Responsif",
+  "version": "0.0.1",
+  "description": "A Solid Base For Pairing JavaScript and Responsive Web Design",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-sass": "~0.7.3"
+  },
+  "devDependencies": {
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-sass": "~0.7.3",
+    "grunt-jslint": "~1.1.12"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "David Brooks",
+  "license": "BSD-2-Clause"
+}
