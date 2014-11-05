@@ -2,7 +2,7 @@
 
 ## How Does it work?
 
-All you have to do is include the script (and a CSS file). Seriously!
+All you have to do is include responsif.js and responsifjs.css. Seriously!
 
 When the script fires, or the page resizes, the classes on the body tag switch to either .responsive_desktop, .responsive_mobile, or .responsive_tablet.
 
