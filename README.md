@@ -1,8 +1,8 @@
-# Sanity.js : Sanely Responsive Web Design
+# Responsif.js : A Solid Base For Pairing JavaScript and Responsive Web Design
 
-## How Sane is it?
+## How Does it work?
 
-All you have to do is include the script. Seriously!
+All you have to do is include the script (and a CSS file). Seriously!
 
 When the script fires, or the page resizes, the classes on the body tag switch to either .responsive_desktop, .responsive_mobile, or .responsive_tablet.
 

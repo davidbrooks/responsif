@@ -3,29 +3,29 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width" />
-    <title>RWDJS - A Solid Base For Pairing JavaScript and Responsive Web Design</title>
-    <link href="_css/rwdjs.css" rel="stylesheet" />
+    <title>Responsif - A Solid Base For Pairing JavaScript and Responsive Web Design</title>
+    <link href="_css/responsifjs.css" rel="stylesheet" />
     <link href="_css/demo.css" rel="stylesheet" />
     <script src="_js/jquery-1.8.3.min.js"></script>
-    <script src="_js/rwdjs.js"></script>
+    <script src="_js/responsif.js"></script>
 </head>
 <body>
   <div class="wrapper">
     <div id="head" class="fragment">
         <div id="branding">
-            <div id="logo">RWDJS</div>
+            <div id="logo">Responsif</div>
             <h1>A Solid Base For Pairing JavaScript and Responsive Web Design</h1>
         </div>
         <p class="blocked">Responsive Mode: <span class="mobile_show">Mobile</span> <span class="tablet_show">Tablet</span> <span class="desktop_show">Desktop</span></p>
     </div><!-- /#head -->
     <div id="content" class="fragment">
         <h2>The Setup</h2>
-        <p>RWDJS is super-simple. Just include the rwdjs.css and rwdjs.js files and you're good to go. RWDJS does require jQuery, for the time being. So make sure you're referencing jQuery before rwdjs.js, please.</p>
-        <p>Once RWDJS takes action it adds a class to the body element, letting you know if it's .responsive_mobile, .responsive_desktop, or .responsive_tablet. It does this by dropping a small div onto the page and watching for changes. So if you resize your page, the body class changes.</p>
+        <p>Responsif is super-simple. Just include the responsifjs.css and responsif.js (or responsif.min.js) files and you're good to go. Responsif does require jQuery, for the time being. So make sure you're referencing jQuery before responsif.js, please.</p>
+        <p>Once Responsif takes action it adds a class to the body element, letting you know if it's .responsive_mobile, .responsive_desktop, or .responsive_tablet. It does this by dropping a small div onto the page and watching for changes. So if you resize your page, the body class changes.</p>
         <h2>What This Script Isn't</h2>
         <p>Though you could, don't use this script to replace Media Queries. Just don't. (I've done that here, but only to show that the page plugin is working.) If you were to do that, and someone were to shut off JavaScript, or just not have it, or there was a JavaScript error, your page is going to get awkward. So use Media Queries, cool?</p>
         <h2>What This Script Is</h2>
-        <p>JavaScript doesn't have a sturdy and lightweight way to test what is actually loading the page. (A mobile device, a tablet, or a computer.) So RWDJS creates one by watching how CSS reports changes in Media Queries.</p>
+        <p>JavaScript doesn't have a sturdy and lightweight way to test what is actually loading the page. (A mobile device, a tablet, or a computer.) So Responsif creates one by watching how CSS reports changes in Media Queries.</p>
         <h2>Quick Use-Cases</h2>
         <p>You can use it to do something like this to load extra content in a desktop view:</p>
         <pre><code>$('document').ready(function () {
