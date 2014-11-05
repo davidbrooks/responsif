@@ -11,9 +11,9 @@ When the script fires, or the page resizes, the classes on the body tag switch t
 No problem! Want to load something only for desktop users? Try this:
 
 ```
-$(’document’).ready(function () {
+$('document').ready(function () {
     var state_test = responsive.run_test();
-    if (state_test === ‘desktop’) {
+    if (state_test === 'desktop') {
     // Load that desktop stuff! 
     }
 });
@@ -22,9 +22,9 @@ $(’document’).ready(function () {
 Or, let’s say you want to move the navigation around? Try this:
 
 ```
-$(’document’).ready(function(){
+$('document').ready(function(){
     window.onresize = function () {
-        if ($(’body’).is(’.responsive_desktop, .responsive_tablet’)) {
+        if ($('body').is('.responsive_desktop, .responsive_tablet')) {
             // Move your navigation for desktop and tablet users
         } else {
             // Move your navigation for mobile users
